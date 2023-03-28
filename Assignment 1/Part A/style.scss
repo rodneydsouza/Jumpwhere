@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(242, 242, 242);
+    margin: 2px;
+    padding: 7px;
+    font-size: Large;
+    .nav{background-color: #72fe77; 
+        display: flex;
+       justify-content:  space-between;
+    .logo{
+       color: rgb(255, 4, 4);
+       
+       font-size: 200%;
+        font-weight: bolder;
+        span{
+            color: rgb(22, 32, 237)
+        }
+    
+    }
+    .nav-section{
+        display: flex;
+        padding-top: 4%;
+        font-size: large;
+        padding-right: 10%;
+
+        a{
+            padding: 4%;
+            color: black;
+            font-weight: bold;
+        }
+        a:hover{
+            background-color: rgb(255, 255, 255);
+            border-radius: 15%;
+            border-color: black;
+           
+        }
+    }
+ 
+    }
+    .content1{
+
+        h2{
+            color :rgb(35, 41, 150)
+    
+        }
+        p{
+            font-size: large;
+        }
+
+    
+    }
+    .content2{
+
+        h2{
+            color :rgb(35, 41, 150)
+    
+        }
+        p{
+            font-size: large;
+        }
+
+        img{
+            float: right;
+
+            padding : 0 9px;
+
+         
+        }
+
+    
+    }
+
+    .content3{
+        display: block;
+
+        h2{
+            color :rgb(35, 41, 150)
+    
+        }
+        p{
+            font-size: large;
+        }
+
+        table{
+            padding: 20px;
+            border: 3px solid black;
+
+        
+            
+            
+        tr:nth-child(even) {
+            background-color: #70dec3;
+          }
+
+        }
+
+        
+    }
+
+    .content4{
+
+        h2{
+            color :rgb(35, 41, 150)
+    
+        }
+    }
+
+    .content5{
+
+        h2{
+            color :rgb(35, 41, 150)
+    
+        }
+        img{
+         height: 50%;
+         width: 50%;
+        }
+       
+
+    
+    }
+
+    .content6{
+        
+
+       
+
+        button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+          }
+          
+          button:hover {background-color: #3e8e41}
+          
+          button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+          }
+    
+    }
+
+
+
+
+
+
+
+
+
+}
